@@ -1,0 +1,109 @@
+.hero__container {
+    content: '';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../images/group9199.jpg');
+}
+
+.hero__block {
+    padding: 128px 0 192px 80px;
+}
+
+.hero__block h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.hero__block h1 {
+    font-weight: 700;
+    max-width: 803px;
+    padding-bottom: 24px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+
+.hero__span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.hero__span span {
+    color: #ffd050;
+}
+
+.hero__block p {
+    max-width: 599px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+
+.hero__btn {
+    padding: 16px 48px;
+    background: #FFD050;
+    cursor: pointer;
+    border: none;
+}
+
+.hero__btn a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+@media screen and (max-width:790px) {
+    .hero__block {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .hero__block p{
+        padding: 0 0 28px 0;
+    }
+    .hero__block h5 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+    }
+    .hero__block h1 {
+        font-weight: 700;
+        margin-bottom: 14px;
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: -2px;
+        color: #FFFFFF;
+        padding: 0 10px;
+    }
+    .hero__span {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+    }
+    .hero__block p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 28px;
+        padding: 0 10px;
+    }
+}

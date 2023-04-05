@@ -1,0 +1,107 @@
+.choose__container {
+    padding: 48px 80px 73px 80px;
+}
+
+.choose__block h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+    padding-bottom: 70px;
+}
+
+.choose__card {
+    display: inline-block;
+    max-width: 296px;
+    border: 1px solid #6D6E76;
+    border-color: silver;
+    border-radius: 8px;
+    padding: 32px;
+    cursor: pointer;
+}
+.choose__card:hover{
+    background: #FFD050;
+    transition: .5s all;
+    .choose__card a img{
+        background-color: #fff;
+    }
+}
+.choose__card:active{
+    background: #FFD050;
+    transition: .5s all;
+}
+
+.choose__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choose__card h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #232536;
+    padding-bottom: 4px;
+}
+
+.choose__card p {
+    max-width: 232px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+@media screen and (max-width:1374px) {
+    .choose__container {
+        padding: 48px 32px 73px 32px;
+    }
+}
+@media screen and (max-width:1270px) {
+    .choose__list {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 2fr 2fr;
+        gap: 24px;
+    }
+}
+@media screen and (max-width:650px) {
+    .choose__container {
+        padding: 48px 20px 73px 20px;
+    }
+    .choose__list {
+                display: grid;
+                justify-content: center;
+                align-items: center;    
+                grid-template-columns:1fr;
+                padding-bottom: 34px;
+            }
+            .choose__block h3 {
+                text-align: center;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: -2px;
+                color: #232536;
+                padding-bottom: 34px;
+            }
+}
+@media screen and (max-width:437px) {
+    .choose__container {
+        padding: 48px 32px 0px 32px;
+    }
+    .choose__container{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+    }
+    .choose__list {
+        gap: 24px;
+    }
+}

@@ -1,0 +1,43 @@
+.footer__container {
+    background: #232536;
+    padding: 54px 80px;
+}
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-footer__list ul {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.footer__gmail p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+@media screen and (max-width: 718px ) {
+    .footer__container {
+        background: #232536;
+        padding: 44px 20px;
+    }
+    .footer__block {
+        display: grid;
+        text-align: center;
+        display: block;
+    }
+    .icons-footer__list ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__gmail{
+        padding-bottom: 34px;
+    }
+}

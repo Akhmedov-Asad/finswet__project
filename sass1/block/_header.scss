@@ -1,0 +1,139 @@
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #232536;
+    padding: 25px 83px;
+}
+
+.header__right-block {
+    display: flex;
+    align-items: center;
+    gap: 83px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__items+.header__items {
+    margin-left: 24px;
+}
+
+.header__items a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 44px;
+    width: 138px;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.header__btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+}
+
+@media screen and (max-width:880px) {
+    .header__block {
+        padding: 22px 43px;
+    }
+
+    .header__items+.header__items {
+        margin-left: 20px;
+    }
+
+    .header__items a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .header__right-block {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+    }
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger__list {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .header__block {
+        padding: 20px 24px;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .hamburger__list.active {
+        display: block;
+        background: #232536;
+        text-align: center;
+        padding: 35px 0;
+        position: absolute;
+        width: 100%;
+
+        .header__items2 a {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    .header__items2 a:hover {
+        transition: .5s all;
+        background-color: red;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    .header__items2 {
+        padding-bottom: 20px;
+    }
+
+    .header__items_btn button {
+        padding: 10px 30px;
+        border: none;
+        border-radius: 2px;
+    }
+
+    .header__items_btn button {
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+
+    .header__items_btn button a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #232536;
+    }
+}
+
